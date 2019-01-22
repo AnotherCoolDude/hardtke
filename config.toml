@@ -1,0 +1,82 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Physiopraxis Hardtke"
+theme = "hugo-universal-theme"
+defaultContentLanguage = "de"
+paginate = 10
+
+[menu]
+
+[[menu.main]]
+name = "Startseite"
+url  = "/"
+weight = 1
+
+[[menu.main]]
+name = "Über uns"
+url  = "/about/"
+weight = 2
+
+[[menu.main]]
+name = "Kontakt"
+url  = "/kontakt/"
+weight = 3
+
+[[menu.topbar]]
+enable = false
+text = "<p>Tel.: 0228 9714990</p>"
+
+[params]
+
+style = "green"
+
+address = """<p><strong>Physiotherapie Praxis Hardtke</strong>
+        <br>Koblenzerstr. 63
+        <br>53173 Bonn
+        <br>Deutschland
+      </p>
+      """
+latitude = "50.683660"
+longitude = "7.156082"
+
+googleMapsApiKey = "AIzaSyBtst1Bb8aOFHYTQ1MxupV077WdfDYSSJ4"
+
+logo = "img/Logo_275x45.png"
+
+about_us = "<p>Wir sind die führende Physiopraxis in Bonn, lassen Sie sich überzeugen</p>"
+copyright = ""
+
+date_format = "January 2, 2006"
+
+[params.hero]
+enable = true 
+image = "img/carousel/jumbo1.jpeg"
+height = 800
+
+[params.carousel_clean]
+enable = true
+
+[params.features]
+enable = true
+
+[params.carousel]
+enable = false
+
+[params.testimonials]
+enable = false
+
+[params.team]
+enable = true
+title = "Unser Team"
+subtitle = "Hier sind Sie gut aufgehoben"
+
+[params.recent_posts]
+enable = true 
+title = "Neues aus der Welt der Physiotherapie"
+subtitle = "Hier bleiben Sie up-to-date"
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+{{ if isset .Site.Params "hero" }}
+{{ if .Site.Params.hero.enable }}
+
+<section class="bar background-image" style="background-image: url('{{.Site.Params.hero.image}}'); height: {{.Site.Params.hero.height}}px;">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="text-center-hv">
+                <a href=""></a>
+                <h1 class="text-uppercase accent">Physiotherapie Hardtke</h1>
+                <h3 class="text-uppercase accent">Ihre Pyhsiopraxis in Bonn</h3>
+            </div>
+                
+        </div>
+    </div>
+</section>
+
+{{end}}
+{{end}}
