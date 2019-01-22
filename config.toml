@@ -42,12 +42,16 @@ longitude = "7.156082"
 googleMapsApiKey = "AIzaSyBtst1Bb8aOFHYTQ1MxupV077WdfDYSSJ4"
 
 logo = "img/Logo_275x45.png"
-logo_small = "img/Logo_145x24.png"
+logo_small = "img/Logo_187x42.png"
 
 about_us = "<p>Wir sind die führende Physiopraxis in Bonn, lassen Sie sich überzeugen</p>"
 copyright = ""
 
 date_format = "January 2, 2006"
+
+email = "christian.hovenbitzer@gmx.net"
+
+
 
 [params.hero]
 enable = true 
