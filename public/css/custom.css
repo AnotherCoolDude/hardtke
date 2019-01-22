@@ -9,7 +9,7 @@
   min-height: 230px;
 }
 
-.bar .background-image {
+.bar.background-image {
   background-position-x: center;
   background-position-y: top;
   background-repeat: no-repeat;
@@ -165,24 +165,4 @@
 .team .item .team-member .text {
   color: #999999;
   margin-bottom: 40px;
-}
-
-.hero {
-  padding: 0;
-}
-
-.hero div{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin: 0;
-  width: auto;
-
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
