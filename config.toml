@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://quizzical-bhabha-f00fb4.netlify.com"
 languageCode = "en-us"
 title = "Physiopraxis Hardtke"
 theme = "hugo-universal-theme"
