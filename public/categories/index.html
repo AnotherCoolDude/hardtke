@@ -58,6 +58,8 @@
   <meta property="og:url" content="/categories//" />
   <meta property="og:image" content="img/Logo_275x45.png" />
 
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 
@@ -346,7 +348,17 @@
 <script src="https://hardtke.netlify.com/js/owl.carousel.min.js"></script>
 
 
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+</script>
 
   </body>
 </html>
