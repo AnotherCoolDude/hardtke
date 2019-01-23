@@ -75,7 +75,7 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="https://hardtke.netlify.com/">
                     <img src="https://hardtke.netlify.com/img/Logo_275x45.png" alt="Kontakt logo" class="hidden-xs hidden-sm">
-                    <img src="https://hardtke.netlify.com/img/Logo_145x24.png" alt="Kontakt logo" class="visible-xs visible-sm">
+                    <img src="https://hardtke.netlify.com/img/Logo_187x42.png" alt="Kontakt logo" class="visible-xs visible-sm">
                     <span class="sr-only">Kontakt - zur Hauptseite</span>
                 </a>
                 <div class="navbar-buttons">
@@ -139,7 +139,7 @@
 
         </header>
 
-        <div id="heading-breadcrumbs">
+        <div id="heading-breadcrumbs-custom" style="background-image: url('../img/carousel/jumbo1.jpeg');">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -177,6 +177,43 @@
 
 <p>Wir sind <strong>Montags bis Freitags</strong> zwischen <strong>9:00 - 18:00 Uhr</strong> für Sie erreichbar</p>
 
+
+                
+
+                <div class="heading">
+                  <h3>Kontaktformular</h3>
+                </div>
+
+                <div id="contact-message"></div>
+
+                <form class="contact-form" method="post" action="https://formspree.io/christian.hovenbitzer@gmx.net">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                              <label for="name">Ihr Name</label>
+                                <input type="text" class="form-control" name="name" id="name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="email">Ihre E-Mail-Adresse</label>
+                                <input type="text" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">Ihre Nachricht an uns</label>
+                                <textarea id="message" class="form-control" name="message" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 text-center">
+                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>Nachricht senden</button>
+
+                        </div>
+                    </div>
+                    
+                </form>
 
                 
 
@@ -370,5 +407,17 @@
 <script src="https://hardtke.netlify.com/js/owl.carousel.min.js"></script>
 
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
