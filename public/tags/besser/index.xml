@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Besser on Physiopraxis Hardtke</title>
+    <link>https://hardtke.netlify.com/tags/besser/</link>
+    <description>Recent content in Besser on Physiopraxis Hardtke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jan 2019 14:09:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://hardtke.netlify.com/tags/besser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dies ist ein vierter Blogeintrag</title>
+      <link>https://hardtke.netlify.com/blog/2019/01/23/2019-01-23-dies-ist-ein-vierter-blogeintrag/</link>
+      <pubDate>Wed, 23 Jan 2019 14:09:56 +0000</pubDate>
+      
+      <guid>https://hardtke.netlify.com/blog/2019/01/23/2019-01-23-dies-ist-ein-vierter-blogeintrag/</guid>
+      <description>Dieser Beitrag ist mit dem CMS von Netifly verfasst worden</description>
+    </item>
+    
+  </channel>
+</rss>

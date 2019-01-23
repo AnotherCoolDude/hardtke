@@ -9,6 +9,26 @@
   min-height: 230px;
 }
 
+/* Hero */
+
+
+
+.hero div{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+  width: auto;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .bar .background-image {
   background-position-x: center;
   background-position-y: top;
@@ -23,10 +43,20 @@
   align-items: center;
 }
 
+.bar {
+  padding: 30px 0;
+}
+
+.hero {
+  padding: 0px 0;
+}
+
 .text-center-hv {
   text-align: center;
   vertical-align: middle;
 }
+
+/* carousel clean */
 
 .home-carousel-clean {
   position: relative;
@@ -103,6 +133,8 @@
 
 .owl-carousel .team ul 
 
+/* team */
+
 .team {
   padding: 0;
   margin-bottom: 40px;
@@ -167,25 +199,7 @@
   margin-bottom: 40px;
 }
 
-.hero {
-  padding: 0;
-}
-
-.hero div{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin: 0;
-  width: auto;
-
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+/* breadcrumbs custom */
 
 #heading-breadcrumbs-custom {
   padding: 20px 0;

@@ -13,8 +13,8 @@ url  = "/"
 weight = 1
 
 [[menu.main]]
-name = "Über uns"
-url  = "/about/"
+name = "Blog"
+url  = "/blog/"
 weight = 2
 
 [[menu.main]]
@@ -27,9 +27,8 @@ enable = false
 text = "<p>Tel.: 0228 9714990</p>"
 
 [params]
-
+viewMorePostLink = "/blog/"
 style = "green"
-
 address = """<p><strong>Physiotherapie Praxis Hardtke</strong>
         <br>Koblenzerstr. 63
         <br>53173 Bonn
@@ -38,7 +37,6 @@ address = """<p><strong>Physiotherapie Praxis Hardtke</strong>
       """
 latitude = "50.683660"
 longitude = "7.156082"
-
 googleMapsApiKey = "AIzaSyBtst1Bb8aOFHYTQ1MxupV077WdfDYSSJ4"
 
 logo = "img/Logo_275x45.png"
@@ -47,11 +45,17 @@ logo_small = "img/Logo_187x42.png"
 about_us = "<p>Wir sind die führende Physiopraxis in Bonn, lassen Sie sich überzeugen</p>"
 copyright = ""
 
-date_format = "January 2, 2006"
+date_format = "2. Januar 2006"
 
 email = "christian.hovenbitzer@gmx.net"
 
+[Permalinks]
+blog = "/blog/:year/:month/:day/:filename/"
 
+[params.widgets]
+categories = true
+tags = true
+search = true
 
 [params.hero]
 enable = true 

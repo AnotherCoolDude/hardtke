@@ -3,23 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hardtke.netlify.com/blog/post3/</loc>
+    <loc>https://hardtke.netlify.com/blog/2019/01/23/2019-01-23-dies-ist-ein-vierter-blogeintrag/</loc>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hardtke.netlify.com/blog/2019/01/21/post3/</loc>
     <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hardtke.netlify.com/blog/post2/</loc>
+    <loc>https://hardtke.netlify.com/blog/2019/01/20/post2/</loc>
     <lastmod>2019-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hardtke.netlify.com/blog/post1/</loc>
+    <loc>https://hardtke.netlify.com/blog/2019/01/19/post1/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://hardtke.netlify.com/tags/besser/</loc>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hardtke.netlify.com/blog/</loc>
-    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -29,7 +40,37 @@
   </url>
   
   <url>
+    <loc>https://hardtke.netlify.com/categories/cms/</loc>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hardtke.netlify.com/tags/jetzt/</loc>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hardtke.netlify.com/kontakt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hardtke.netlify.com/categories/netifly/</loc>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hardtke.netlify.com/tags/neu/</loc>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hardtke.netlify.com/tags/noch/</loc>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -40,12 +81,13 @@
   
   <url>
     <loc>https://hardtke.netlify.com/</loc>
-    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hardtke.netlify.com/tags/</loc>
+    <lastmod>2019-01-23T14:09:56+00:00</lastmod>
     <priority>0</priority>
   </url>
   

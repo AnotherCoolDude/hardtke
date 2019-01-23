@@ -13,28 +13,28 @@
     
     <item>
       <title>Dies ist ein dritter Blogbeitrag</title>
-      <link>https://hardtke.netlify.com/blog/post3/</link>
+      <link>https://hardtke.netlify.com/blog/2019/01/21/post3/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hardtke.netlify.com/blog/post3/</guid>
+      <guid>https://hardtke.netlify.com/blog/2019/01/21/post3/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.</description>
     </item>
     
     <item>
       <title>Dies ist ein zweiter Blogbeitrag</title>
-      <link>https://hardtke.netlify.com/blog/post2/</link>
+      <link>https://hardtke.netlify.com/blog/2019/01/20/post2/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hardtke.netlify.com/blog/post2/</guid>
+      <guid>https://hardtke.netlify.com/blog/2019/01/20/post2/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.</description>
     </item>
     
     <item>
       <title>Dies ist ein Blogbeitrag</title>
-      <link>https://hardtke.netlify.com/blog/post1/</link>
+      <link>https://hardtke.netlify.com/blog/2019/01/19/post1/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hardtke.netlify.com/blog/post1/</guid>
+      <guid>https://hardtke.netlify.com/blog/2019/01/19/post1/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.</description>
     </item>
     
