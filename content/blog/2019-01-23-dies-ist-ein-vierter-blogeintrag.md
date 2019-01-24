@@ -9,6 +9,6 @@ tags:
 categories:
   - netifly
   - cms
-banner: /img/uploads/blog-recent-2.jpg
+banner: /img/uploads/portfolio-9.jpg
 ---
 Dieser Beitrag ist mit dem CMS von Netifly verfasst worden
