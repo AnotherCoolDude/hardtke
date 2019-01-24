@@ -1,9 +1,12 @@
-+++
-title = "Dies ist ein dritter Blogbeitrag"
-date = "2019-01-21"#T13:50:46+02:00"
-tags = ["theme"]
-categories = ["physio"]
-+++
+---
+title: Dies ist ein dritter Blogbeitrag
+date: '2019-01-21'
+tags:
+  - theme
+categories:
+  - physio
+banner: /img/uploads/portfolio-4.jpg
+---
 
 ## Introduction
 
